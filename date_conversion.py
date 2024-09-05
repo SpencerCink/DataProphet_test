@@ -23,10 +23,10 @@ def convert_date(timestamp_string):
     #For this reason, we will make a new system to consider the time stamp.
     time = hour*10000 + minute*100 +second
  
-    if (70000<=time<=1500000): 
+    if (70000<time<=1500000): 
         encoded_string+='A'
 
-    elif 1500000<=time<=2300000: 
+    elif 1500000<time<=2300000: 
         encoded_string += 'B'
 
     else:
